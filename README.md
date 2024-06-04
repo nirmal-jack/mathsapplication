@@ -132,6 +132,9 @@
 
   ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/88d32ca3-b882-4579-8025-463afc57e46a)
 
+  ![image](https://github.com/nirmal-jack/mathsapplication/assets/170439621/05fa55ae-b6a5-4b30-8641-9806550eefc3)
+
+
 
 
   
