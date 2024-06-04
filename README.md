@@ -95,6 +95,34 @@
   - go to the lambda function created and click on the configuration tab, click on permissions on the left hand side and click on the role URL.
  
     ![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/b203a2ba-d42a-4ecc-8223-6e5737624a54)
+
+
+- go to permissions tab and choose "Create inline Policy".
+
+  ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/776c9dfd-8dad-490c-89cc-b091ce98e753)
+
+  - choose JSON and give the permissions for the lambda function to do on the dynamoDB table. Here paste the dynamoDB Table's ARN.
+ 
+    ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/3ce4d75a-02b7-4196-83bc-103d95ff1541)
+
+
+    - give next and give a name to the policy and create policy.
+   
+      ![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/81adfd52-6ded-436f-84fc-5834c6e35f13)
+
+- now go to the lambda function, click on code and copy paste the poweroflambda function final code there and save and deploy.
+
+  ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/6e14da78-e117-466d-8cf1-5eb58a82ecd7)
+
+
+- once again do the testing, click on configure test events, give the values or use the same values as before and test.
+
+
+![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/5a724747-b3bf-4e39-967e-c3b842a297d0)
+
+
+
+
  
 - 
 
