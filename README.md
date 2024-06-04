@@ -40,6 +40,18 @@
     - now for the users, we need the application to go live, we need an public endpoint or a URL that can be called and trigger that lambda function to run.
      for that we are gonna use AWS api gateway. This is the perfect way to invoke a Lambda Function.
 
+- now headover to AWS API Gateway and choose create API. and choose "REST API" and give build.
+
+  ![rest](https://github.com/nirmal-jack/mathsapplication/assets/170439621/580aa47c-1737-451d-b7f2-4be90b283a23)
+
+  - choose new API and give a name for the API, as "PowerOfMathAPI" and create API.
+ 
+    ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/d2bb9bcf-0f7c-4ca4-b058-1f518939bca0)
+
+
+
+
+
 
     - 
 
