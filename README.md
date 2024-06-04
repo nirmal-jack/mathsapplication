@@ -110,7 +110,7 @@
    
       ![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/81adfd52-6ded-436f-84fc-5834c6e35f13)
 
-- now go to the lambda function, click on code and copy paste the poweroflambda function final code there and save and deploy.
+- now go to the lambda function, click on code, give the correct table name  and copy paste the poweroflambda function final code there and save and deploy.
 
   ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/6e14da78-e117-466d-8cf1-5eb58a82ecd7)
 
@@ -119,6 +119,25 @@
 
 
 ![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/5a724747-b3bf-4e39-967e-c3b842a297d0)
+
+- go the dynamoDB Table , click on explore table options, and we can see the result.
+
+- ![explore](https://github.com/nirmal-jack/mathsapplication/assets/170439621/fb244a20-b992-4d8c-bc66-61bb0169f7c5)
+
+
+
+![explore1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/e47ca79b-e8de-4f27-93ec-64127556e476)
+
+- now go back again to the AWS Amplify, delete the old zip file of the html page and create a new one, copy the contents of the index-original with the correct API GATEWAY ENDPOINT in the file, upload it to the AWS Amplify.
+
+  ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/88d32ca3-b882-4579-8025-463afc57e46a)
+
+
+
+  
+
+
+
 
 
 
