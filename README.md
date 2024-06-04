@@ -81,6 +81,28 @@
 
 ![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/bfc0b80a-3de3-4706-a644-d78b7529faaa)
 
+- now we have to store the records in a database, we can use AWS DynamoDB and we have to return the result to the user as well.
+- Go the AWS Console and type DynamoDB. Create table.
+- give the name as "powerofMathdatabase" and for partition key give "ID" * create table.
+
+  ![DB](https://github.com/nirmal-jack/mathsapplication/assets/170439621/d89bae5c-898d-4f40-892a-17d5915034fc)
+
+- save the dynamo DB ARN safely.
+
+  ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/7f3849b3-65ec-4d69-9183-1dc34526c3e0)
+
+  - now the lambda function has to have permission to write to this dynamo db table. for that we have to create IAM Roles and permissions.
+  - go to the lambda function created and click on the configuration tab, click on permissions on the left hand side and click on the role URL.
+ 
+    ![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/b203a2ba-d42a-4ecc-8223-6e5737624a54)
+ 
+- 
+
+ 
+    
+
+
+
   
 
 
