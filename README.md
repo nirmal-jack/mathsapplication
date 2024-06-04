@@ -26,6 +26,25 @@
 
    ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/cfeba72a-60f8-4e5c-8370-b16276728b96)
 
+- now to test whether that function code has been deployed successfully, choose the option "Test"--- choose "Configure test event"
+- give a name to the test event as "PowerofMathtestevent"
+  here the user is giving only 2 values, so choose base and exponent.. eg: give 2 to the power of 3, the answer should be 8 and click on save
+
+
+  ![teste](https://github.com/nirmal-jack/mathsapplication/assets/170439621/7b8ab665-7619-4bf1-85f8-32bbd9cb548e)
+
+  - now go back to the lambdo code and click on the same test button. it will display the answer.
+ 
+    ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/68a36f84-0203-4c2c-9821-c11c8a9b58ef)
+
+    - now for the users, we need the application to go live, we need an public endpoint or a URL that can be called and trigger that lambda function to run.
+     for that we are gonna use AWS api gateway. This is the perfect way to invoke a Lambda Function.
+
+
+    - 
+
+
+
    
 
 
