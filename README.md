@@ -48,6 +48,53 @@
  
     ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/d2bb9bcf-0f7c-4ca4-b058-1f518939bca0)
 
+  -Now we have an empty API and we need methods for users to call. on the left hand side, choose resources and click on create a method.
+  - the type of method is POST, choose Lambda function as the integration type and give the lambda name or ARN & create a method.
+ 
+  ![meth](https://github.com/nirmal-jack/mathsapplication/assets/170439621/99c29bb8-0fb1-4bfa-ae8d-4d02b9363173)
+
+  - come back and click on "ENABLE CORS"
+    ![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/af2b6e0f-3d2e-4a72-b13c-32d9399fe54b)
+
+- the main usage of cors is the application to be accessible for one domain to another, here we have the app on amplify in one domain and in lambda another, so to work across both, we enable cors. and POST and click SAVE.
+
+![cors](https://github.com/nirmal-jack/mathsapplication/assets/170439621/63408d7c-ff7f-4c22-bdaa-09181cf0f306)
+
+-Now lets deploy the API to test the application. select new stage and give "DEV" & choose DEPLOY.
+
+
+![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/f572a2c0-116c-49e0-ae8d-005809c8cc50)
+
+
+- copy the INVOKE URL i.e. (API Gateway )to paste it in our lambda function to trigger it.
+
+  ![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/834a18f0-efd0-4886-858e-bf5b7abe72a2)
+
+- now to validate this, go to resources and click on POST, then choose TEST.
+- give the same details that we use to test the lambda function.
+-  {
+  "base": 2
+  "exponent": 4}
+
+![Capture](https://github.com/nirmal-jack/mathsapplication/assets/170439621/befc0bc9-9d98-4874-ada6-838c52a992dc)
+
+
+![Capture1](https://github.com/nirmal-jack/mathsapplication/assets/170439621/bfc0b80a-3de3-4706-a644-d78b7529faaa)
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
 
 
 
